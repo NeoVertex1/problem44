@@ -68,3 +68,6 @@ $$\text{Open Question:}$$
 $$\text{Is there a quasi-polynomial time algorithm for constant } \epsilon > 0 \text{?}$$
 
 
+![ε-weak membership visualization](https://github.com/NeoVertex1/problem44/blob/main/%CE%B5-weak_membership_visualization.svg)
+
+

@@ -35,4 +35,36 @@ $$\text{Corollary: The set } Sep(d,d) \text{ is closed and convex.}$$
 
 lets visualize the geometry of separable states:
 
+![Geometry Of Separable States](https://github.com/NeoVertex1/problem44/blob/main/Geometry_Separable_States.svg)
+
+
+
+$$\text{Problem: ε-weak membership for } Sep(d,d)$$
+
+$$\text{Input:}$$
+
+$$- \text{A density matrix } \rho \in \mathcal{D}(\mathbb{C}^d \otimes \mathbb{C}^d)$$
+
+$$- \text{A parameter } \epsilon > 0$$
+
+$$\text{Promise:}$$
+
+$$\text{Either } \rho \in Sep(d,d) \text{ or } \rho \text{ is ε-far from any state in } Sep(d,d) \text{ in trace distance.}$$
+
+$$\text{Output:}$$
+
+$$\text{"YES" if } \rho \in Sep(d,d), \text{ "NO" if } \rho \text{ is ε-far from } Sep(d,d).$$
+
+$$\text{Trace Distance:} D(\rho, \sigma) = \frac{1}{2} \|\rho - \sigma\|_1 = \frac{1}{2} \text{Tr}\sqrt{(\rho - \sigma)^\dagger(\rho - \sigma)}$$
+
+$$\text{ε-far condition:} \min_{\sigma \in Sep(d,d)} D(\rho, \sigma) > \epsilon$$
+
+$$\text{Theorem (Gurvits, 2003):}$$
+
+$$\text{The ε-weak membership problem for } Sep(d,d) \text{ is NP-hard for } \epsilon \leq 1/\text{poly}(d).$$
+
+$$\text{Open Question:}$$
+
+$$\text{Is there a quasi-polynomial time algorithm for constant } \epsilon > 0 \text{?}$$
+
 

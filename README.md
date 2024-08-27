@@ -100,3 +100,30 @@ $$\text{This duality is key to many separability testing algorithms.}$$
 ![entanglement witness](https://github.com/NeoVertex1/problem44/blob/main/Entanglement_witness.svg)
 
 
+\text{Relevant Complexity Classes:}
+
+1. P: \text{Problems solvable in polynomial time by a deterministic Turing machine}
+2. NP: \text{Problems verifiable in polynomial time by a deterministic Turing machine}
+3. QMA: \text{Quantum Merlin-Arthur (quantum analogue of NP)}
+4. QMA(2): \text{QMA with two unentangled proofs}
+5. EXP: \text{Problems solvable in exponential time by a deterministic Turing machine}
+6. NEXP: \text{Problems verifiable in exponential time by a deterministic Turing machine}
+
+\text{Known Relations:}
+P \subseteq NP \subseteq QMA \subseteq QMA(2) \subseteq NEXP
+
+\text{Separability Testing in Different Regimes:}
+
+1. \epsilon \leq 1/\text{poly}(d): \text{NP-hard (Gurvits, 2003)}
+2. \text{Constant } \epsilon > 0: \text{Open problem (our focus)}
+3. \text{LOCC norm instead of trace distance: Quasi-polynomial time (Brandão et al., 2011)}
+
+\text{Theorem (Harrow & Montanaro, 2013):}
+\text{If there exists a quasi-polynomial time algorithm for constant } \epsilon > 0, 
+\text{then } QMA(2) \subseteq EXP.
+
+\text{Proof Idea:}
+1. \text{Reduce any QMA(2) problem to separability testing}
+2. \text{Use the hypothetical quasi-polynomial algorithm}
+3. \text{Show that this leads to an exponential-time algorithm for QMA(2)}
+

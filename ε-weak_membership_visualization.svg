@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- State space -->
+  <ellipse cx="200" cy="200" rx="180" ry="180" fill="none" stroke="#ffffff" stroke-width="1" />
+  
+  <!-- Separable states -->
+  <path d="M100,200 Q200,50 300,200 Q200,350 100,200" fill="#00ff00" opacity="0.3" />
+  <text x="200" y="200" font-size="20" fill="#00ff00" text-anchor="middle">Sep(d,d)</text>
+  
+  <!-- ε-ball -->
+  <circle cx="300" cy="150" r="40" fill="none" stroke="#ff0000" stroke-width="2" stroke-dasharray="5,5" />
+  <text x="300" y="150" font-size="16" fill="#ff0000" text-anchor="middle">ε</text>
+  
+  <!-- States -->
+  <circle cx="200" cy="150" r="5" fill="#00ffff" />
+  <text x="210" y="140" font-size="14" fill="#00ffff">ρ₁ ∈ Sep(d,d)</text>
+  
+  <circle cx="300" cy="150" r="5" fill="#ff00ff" />
+  <text x="310" y="140" font-size="14" fill="#ff00ff">ρ₂ (ε-far)</text>
+</svg>

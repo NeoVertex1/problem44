@@ -2,7 +2,7 @@
 problem #44 Complexity of the separability problem
 
 
-\text{Definition: A bipartite mixed state } \rho \in \mathcal{D}(\mathbb{C}^d \otimes \mathbb{C}^d) \text{ is separable if and only if:}
+$$ \text{Definition: A bipartite mixed state } \rho \in \mathcal{D}(\mathbb{C}^d \otimes \mathbb{C}^d) \text{ is separable if and only if:} $$
 
 \rho = \sum_{i=1}^k p_i \rho_i^A \otimes \rho_i^B
 

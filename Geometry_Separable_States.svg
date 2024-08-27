@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <radialGradient id="stateSpaceGrad" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:rgb(0,0,100);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(0,0,0);stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- State space -->
+  <ellipse cx="200" cy="200" rx="180" ry="180" fill="url(#stateSpaceGrad)" />
+  
+  <!-- Separable states -->
+  <path d="M100,200 Q200,50 300,200 Q200,350 100,200" fill="#00ff00" opacity="0.3" />
+  <text x="200" y="200" font-size="20" fill="#00ff00" text-anchor="middle">Sep(d,d)</text>
+  
+  <!-- Entangled states -->
+  <path d="M50,200 Q200,0 350,200 Q200,400 50,200" fill="#ff00ff" opacity="0.3" />
+  <text x="200" y="380" font-size="16" fill="#ff00ff" text-anchor="middle">Entangled States</text>
+  
+  <!-- Pure product states -->
+  <circle cx="150" cy="150" r="5" fill="#ffffff" />
+  <circle cx="250" cy="150" r="5" fill="#ffffff" />
+  <circle cx="200" cy="250" r="5" fill="#ffffff" />
+  <text x="200" y="30" font-size="14" fill="#ffffff" text-anchor="middle">Pure Product States</text>
+</svg>

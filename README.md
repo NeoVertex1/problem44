@@ -71,3 +71,32 @@ $$\text{Is there a quasi-polynomial time algorithm for constant } \epsilon > 0 \
 ![ε-weak membership visualization](https://github.com/NeoVertex1/problem44/blob/main/%CE%B5-weak_membership_visualization.svg)
 
 
+$$\text{Definition: An entanglement witness is a Hermitian operator } W \text{ such that:}$$
+
+$$1. \text{Tr}(W\sigma) \geq 0 \text{ for all } \sigma \in Sep(d,d)$$
+
+$$2. \text{There exists an entangled state } \rho \text{ such that } \text{Tr}(W\rho) < 0$$
+
+$$\text{Theorem (Separating Hyperplane Theorem):}$$
+
+$$\text{A state } \rho \text{ is entangled if and only if there exists an entanglement witness } W \text{ such that } \text{Tr}(W\rho) < 0.$$
+
+$$\text{Proof sketch:}$$
+
+$$1. Sep(d,d) \text{ is closed and convex.}$$
+
+$$2. \text{Any entangled state } \rho \text{ is outside this convex set.}$$
+
+$$3. \text{Apply the separating hyperplane theorem from convex analysis.}$$
+
+$$\text{Duality between Separability and Entanglement Witnesses:}$$
+
+$$\text{Let } \mathcal{W} \text{ be the set of all entanglement witnesses. Then:}$$
+
+$$Sep(d,d) = \{\rho : \text{Tr}(W\rho) \geq 0 \text{ for all } W \in \mathcal{W}\}$$
+
+$$\text{This duality is key to many separability testing algorithms.}$$
+
+![entanglement witness](https://github.com/NeoVertex1/problem44/blob/main/Entanglement_witness.svg)
+
+

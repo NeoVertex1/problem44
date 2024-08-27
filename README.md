@@ -4,12 +4,12 @@ problem #44 Complexity of the separability problem
 
 $$\text{Definition: A bipartite mixed state } \rho \in \mathcal{D}(\mathbb{C}^d \otimes \mathbb{C}^d) \text{ is separable if and only if:}$$
 
-\rho = \sum_{i=1}^k p_i \rho_i^A \otimes \rho_i^B
+$$\rho = \sum_{i=1}^k p_i \rho_i^A \otimes \rho_i^B$$
 
-\text{where:}
-- k \text{ is a positive integer}
-- p_i > 0 \text{ and } \sum_{i=1}^k p_i = 1
-- \rho_i^A \in \mathcal{D}(\mathbb{C}^d) \text{ and } \rho_i^B \in \mathcal{D}(\mathbb{C}^d) \text{ are density operators}
+$$\text{where:}$$
+$$- k \text{ is a positive integer}$$
+$$- p_i > 0 \text{ and } \sum_{i=1}^k p_i = 1$$
+$$- \rho_i^A \in \mathcal{D}(\mathbb{C}^d) \text{ and } \rho_i^B \in \mathcal{D}(\mathbb{C}^d) \text{ are density operators}$$
 
 \text{The set of all separable states is denoted as } Sep(d,d).
 
